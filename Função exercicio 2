@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+void parouimpar(){
+    int num;
+    cin >> num;
+    if (num%2==0){
+        cout<<"o numero é par"<<endl;
+    }
+    else{
+        cout<<"o numero é impar"<<endl;
+    }
+}
+
+int main()
+{
+    parouimpar();
+}
